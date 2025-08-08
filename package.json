@@ -4,6 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "lint": "oxlint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +14,7 @@
   "dependencies": {
     "@types/node": "^24.2.0",
     "dotenv": "^17.2.1",
+    "oxlint": "^1.11.0",
     "typescript": "^5.9.2"
   }
 }
